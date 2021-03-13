@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const Users = () => {
-  const [uesrs, setUsers] = useState([
+  const [users, setUsers] = useState([
     { id: 1, name: "Vasyl" },
     { id: 2, name: "Petro" },
   ]);
