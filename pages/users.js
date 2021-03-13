@@ -6,6 +6,8 @@ const Users = () => {
     { id: 1, name: "Vasyl" },
     { id: 2, name: "Petro" },
   ]);
+
+  useEffect(() => {}, []);
   return (
     <div>
       <h1>Users</h1>
